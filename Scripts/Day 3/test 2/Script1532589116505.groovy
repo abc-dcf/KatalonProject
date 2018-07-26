@@ -41,3 +41,7 @@ WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/input_btnSave'))
 
 WebUI.closeBrowser()
 
+WebUI.acceptAlert()
+
+WebUI.acceptAlert()
+
