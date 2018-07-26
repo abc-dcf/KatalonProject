@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test 1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc69a267-d7bc-42ca-ad08-db6361a83a21</testCaseGuid>
+   <variable>
+      <defaultValue>'https://opensource-demo.orangehrmlive.com/'</defaultValue>
+      <description></description>
+      <id>e014d4ff-ba1a-4583-9a81-15f1b581fb10</id>
+      <masked>false</masked>
+      <name>URL</name>
+   </variable>
+   <variable>
+      <defaultValue>'Admin'</defaultValue>
+      <description></description>
+      <id>85978730-acf0-47b3-af48-0f3c277a0659</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>'admin123'</defaultValue>
+      <description></description>
+      <id>49f29810-513b-400f-9606-6e8f7f1bcc07</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

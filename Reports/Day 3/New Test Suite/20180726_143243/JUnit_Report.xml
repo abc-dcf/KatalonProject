@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="37" tests="0" failures="1" errors="0">
+   <testsuite name="New Test Suite" tests="0" failures="1" errors="0" time="37" timestamp="2018-07-26 14:32:45" hostname="slk - WSLK1FFTRFW-04.SLKSOFT.COM" id="Test Suites/Day 3/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\slk.WSLK1FFTRFW-04.000\\Katalon Studio\\Kat\\Reports\\Day 3\\New Test Suite\\20180726_143243"/>
+         <property name="logFiles" value="C:\\Users\\slk.WSLK1FFTRFW-04.000\\Katalon Studio\\Kat\\Reports\\Day 3\\New Test Suite\\20180726_143243\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\slk.WSLK1FFTRFW-04.000\\Katalon Studio\\Kat\\Reports\\Day 3\\New Test Suite\\20180726_143243\\1532595800004.png"/>
+         <property name="hostName" value="slk - WSLK1FFTRFW-04.SLKSOFT.COM"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="068fbb513a255104430dc0e41644d7a6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Day 3/test 2" classname="Test Cases/Day 3/test 2" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'Admin' of object 'Object Repository/Page_OrangeHRM/input_txtUsername' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/input_txtUsername' located by 'By.xpath: //input[@name = 'txtUsername' and @id = 'txtUsername' and @type = 'text']' not found)"/>
+         <system-out><![CDATA[2018-07-26 14:32:45 - [TEST_CASE][FAILED] - Test Cases/Day 3/test 2: Test Cases/Day 3/test 2 FAILED because (of) Unable to set text 'Admin' of object 'Object Repository/Page_OrangeHRM/input_txtUsername' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/input_txtUsername' located by 'By.xpath: //input[@name = 'txtUsername' and @id = 'txtUsername' and @type = 'text']' not found)
+
+2018-07-26 14:32:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-26 14:32:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-26 14:32:49 - [TEST_STEP][FAILED] - setText: Unable to set text 'Admin' of object 'Object Repository/Page_OrangeHRM/input_txtUsername' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/input_txtUsername' located by 'By.xpath: //input[@name = 'txtUsername' and @id = 'txtUsername' and @type = 'text']' not found)
+
+2018-07-26 14:33:20 - [MESSAGE][FAILED] - Unable to set text 'Admin' of object 'Object Repository/Page_OrangeHRM/input_txtUsername' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/input_txtUsername' located by 'By.xpath: //input[@name = 'txtUsername' and @id = 'txtUsername' and @type = 'text']' not found)
+[[ATTACHMENT|C:\\Users\\slk.WSLK1FFTRFW-04.000\\Katalon Studio\\Kat\\Reports\\Day 3\\New Test Suite\\20180726_143243\\1532595800004.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-26 14:32:45 - [TEST_CASE][FAILED] - Test Cases/Day 3/test 2: Test Cases/Day 3/test 2 FAILED because (of) Unable to set text 'Admin' of object 'Object Repository/Page_OrangeHRM/input_txtUsername' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/input_txtUsername' located by 'By.xpath: //input[@name = 'txtUsername' and @id = 'txtUsername' and @type = 'text']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-26 14:32:45 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/Day 3/test 2 FAILED because (of) Unable to set text 'Admin' of object 'Object Repository/Page_OrangeHRM/input_txtUsername' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/input_txtUsername' located by 'By.xpath: //input[@name = 'txtUsername' and @id = 'txtUsername' and @type = 'text']' not found)]]></system-out>
+      <system-err><![CDATA[2018-07-26 14:32:45 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/Day 3/test 2 FAILED because (of) Unable to set text 'Admin' of object 'Object Repository/Page_OrangeHRM/input_txtUsername' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_OrangeHRM/input_txtUsername' located by 'By.xpath: //input[@name = 'txtUsername' and @id = 'txtUsername' and @type = 'text']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

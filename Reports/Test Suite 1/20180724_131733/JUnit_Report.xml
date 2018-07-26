@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 1" time="20" tests="1" failures="0" errors="1">
+   <testsuite name="Test Suite 1" tests="1" failures="0" errors="1" time="20" timestamp="2018-07-24 13:17:34" hostname="slk - WSLK1FFTRFW-04.SLKSOFT.COM" id="Test Suites/Test Suite 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\slk.WSLK1FFTRFW-04.000\\Katalon Studio\\Kat\\Reports\\Test Suite 1\\20180724_131733"/>
+         <property name="logFiles" value="C:\\Users\\slk.WSLK1FFTRFW-04.000\\Katalon Studio\\Kat\\Reports\\Test Suite 1\\20180724_131733\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="slk - WSLK1FFTRFW-04.SLKSOFT.COM"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="0a381d0d5c4be6bc00c5d8c238861ee4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/login/Test 1" classname="Test Cases/login/Test 1" status="PASSED">
+         <system-out><![CDATA[2018-07-24 13:17:34 - [TEST_CASE][PASSED] - Test Cases/login/Test 1: Test Cases/login/Test 1
+
+2018-07-24 13:17:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-24 13:17:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-24 13:17:38 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://demoaut.katalon.com/' successfully
+
+2018-07-24 13:17:39 - [MESSAGE][PASSED] - Navigate to 'http://demoaut.katalon.com/' successfully
+
+2018-07-24 13:17:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-07-24 13:17:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-07-24 13:17:39 - [TEST_STEP][PASSED] - setText: Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_username'
+
+2018-07-24 13:17:40 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_username'
+
+2018-07-24 13:17:40 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_password'
+
+2018-07-24 13:17:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_password'
+
+2018-07-24 13:17:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-07-24 13:17:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-07-24 13:17:41 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-24 13:17:42 - [MESSAGE][PASSED] - Browser is closed
+
+2018-07-24 13:17:42 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://google.com/'
+
+2018-07-24 13:17:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://google.com/'
+
+2018-07-24 13:17:45 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-24 13:17:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login/Test 2" classname="Test Cases/login/Test 2" status="ERROR">
+         <error type="ERROR" message="Test Cases/login/Test 2 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser() is applicable for argument types: (java.lang.String) values: []
+Possible solutions: closeBrowser(), closeBrowser(com.kms.katalon.core.model.FailureHandling), openBrowser(java.lang.String), openBrowser(java.lang.String, com.kms.katalon.core.model.FailureHandling)"/>
+         <system-out><![CDATA[2018-07-24 13:17:47 - [TEST_CASE][ERROR] - Test Cases/login/Test 2: Test Cases/login/Test 2 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser() is applicable for argument types: (java.lang.String) values: []
+Possible solutions: closeBrowser(), closeBrowser(com.kms.katalon.core.model.FailureHandling), openBrowser(java.lang.String), openBrowser(java.lang.String, com.kms.katalon.core.model.FailureHandling)
+
+2018-07-24 13:17:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-24 13:17:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-24 13:17:49 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://demoaut.katalon.com/' successfully
+
+2018-07-24 13:17:50 - [MESSAGE][PASSED] - Navigate to 'http://demoaut.katalon.com/' successfully
+
+2018-07-24 13:17:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test2/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-07-24 13:17:51 - [MESSAGE][PASSED] - Object: 'Object Repository/test2/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-07-24 13:17:51 - [TEST_STEP][PASSED] - setText: Text 'John Doe' is set on object 'Object Repository/test2/Page_CURA Healthcare Service/input_username'
+
+2018-07-24 13:17:51 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/test2/Page_CURA Healthcare Service/input_username'
+
+2018-07-24 13:17:51 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/test2/Page_CURA Healthcare Service/input_password'
+
+2018-07-24 13:17:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/test2/Page_CURA Healthcare Service/input_password'
+
+2018-07-24 13:17:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test2/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-07-24 13:17:52 - [MESSAGE][PASSED] - Object: 'Object Repository/test2/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-07-24 13:17:52 - [TEST_STEP][PASSED] - closeBrowser: null]]></system-out>
+         <system-err><![CDATA[2018-07-24 13:17:47 - [TEST_CASE][ERROR] - Test Cases/login/Test 2: Test Cases/login/Test 2 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser() is applicable for argument types: (java.lang.String) values: []
+Possible solutions: closeBrowser(), closeBrowser(com.kms.katalon.core.model.FailureHandling), openBrowser(java.lang.String), openBrowser(java.lang.String, com.kms.katalon.core.model.FailureHandling)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-24 13:17:34 - [TEST_SUITE][ERROR] - Test Suite 1: Test Cases/login/Test 2 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser() is applicable for argument types: (java.lang.String) values: []
+Possible solutions: closeBrowser(), closeBrowser(com.kms.katalon.core.model.FailureHandling), openBrowser(java.lang.String), openBrowser(java.lang.String, com.kms.katalon.core.model.FailureHandling)]]></system-out>
+      <system-err><![CDATA[2018-07-24 13:17:34 - [TEST_SUITE][ERROR] - Test Suite 1: Test Cases/login/Test 2 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser() is applicable for argument types: (java.lang.String) values: []
+Possible solutions: closeBrowser(), closeBrowser(com.kms.katalon.core.model.FailureHandling), openBrowser(java.lang.String), openBrowser(java.lang.String, com.kms.katalon.core.model.FailureHandling)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 1" time="14" tests="0" failures="0" errors="1">
+   <testsuite name="Test Suite 1" tests="0" failures="0" errors="1" time="14" timestamp="2018-07-24 15:06:28" hostname="slk - WSLK1FFTRFW-04.SLKSOFT.COM" id="Test Suites/Test Suite 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\slk.WSLK1FFTRFW-04.000\\Katalon Studio\\Kat\\Reports\\Test Suite 1\\20180724_150627"/>
+         <property name="logFiles" value="C:\\Users\\slk.WSLK1FFTRFW-04.000\\Katalon Studio\\Kat\\Reports\\Test Suite 1\\20180724_150627\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="slk - WSLK1FFTRFW-04.SLKSOFT.COM"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="browser" value="Firefox 51.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="69c72068-dfc7-49b2-b2c0-7f1ca48d2c86"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/login/Test 2" classname="Test Cases/login/Test 2" status="ERROR">
+         <error type="ERROR" message="Test Cases/login/Test 2 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser() is applicable for argument types: (java.lang.String) values: []
+Possible solutions: closeBrowser(), closeBrowser(com.kms.katalon.core.model.FailureHandling), openBrowser(java.lang.String), openBrowser(java.lang.String, com.kms.katalon.core.model.FailureHandling)"/>
+         <system-out><![CDATA[2018-07-24 15:06:29 - [TEST_CASE][ERROR] - Test Cases/login/Test 2: Test Cases/login/Test 2 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser() is applicable for argument types: (java.lang.String) values: []
+Possible solutions: closeBrowser(), closeBrowser(com.kms.katalon.core.model.FailureHandling), openBrowser(java.lang.String), openBrowser(java.lang.String, com.kms.katalon.core.model.FailureHandling)
+
+2018-07-24 15:06:29 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-24 15:06:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-24 15:06:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://demoaut.katalon.com/' successfully
+
+2018-07-24 15:06:38 - [MESSAGE][PASSED] - Navigate to 'http://demoaut.katalon.com/' successfully
+
+2018-07-24 15:06:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test2/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-07-24 15:06:39 - [MESSAGE][PASSED] - Object: 'Object Repository/test2/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-07-24 15:06:39 - [TEST_STEP][PASSED] - setText: Text 'John Doe' is set on object 'Object Repository/test2/Page_CURA Healthcare Service/input_username'
+
+2018-07-24 15:06:39 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/test2/Page_CURA Healthcare Service/input_username'
+
+2018-07-24 15:06:39 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/test2/Page_CURA Healthcare Service/input_password'
+
+2018-07-24 15:06:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/test2/Page_CURA Healthcare Service/input_password'
+
+2018-07-24 15:06:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test2/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-07-24 15:06:41 - [MESSAGE][PASSED] - Object: 'Object Repository/test2/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-07-24 15:06:41 - [TEST_STEP][PASSED] - closeBrowser: null]]></system-out>
+         <system-err><![CDATA[2018-07-24 15:06:29 - [TEST_CASE][ERROR] - Test Cases/login/Test 2: Test Cases/login/Test 2 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser() is applicable for argument types: (java.lang.String) values: []
+Possible solutions: closeBrowser(), closeBrowser(com.kms.katalon.core.model.FailureHandling), openBrowser(java.lang.String), openBrowser(java.lang.String, com.kms.katalon.core.model.FailureHandling)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-24 15:06:28 - [TEST_SUITE][ERROR] - Test Suite 1: Test Cases/login/Test 2 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser() is applicable for argument types: (java.lang.String) values: []
+Possible solutions: closeBrowser(), closeBrowser(com.kms.katalon.core.model.FailureHandling), openBrowser(java.lang.String), openBrowser(java.lang.String, com.kms.katalon.core.model.FailureHandling)]]></system-out>
+      <system-err><![CDATA[2018-07-24 15:06:28 - [TEST_SUITE][ERROR] - Test Suite 1: Test Cases/login/Test 2 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeBrowser() is applicable for argument types: (java.lang.String) values: []
+Possible solutions: closeBrowser(), closeBrowser(com.kms.katalon.core.model.FailureHandling), openBrowser(java.lang.String), openBrowser(java.lang.String, com.kms.katalon.core.model.FailureHandling)]]></system-err>
+   </testsuite>
+</testsuites>
